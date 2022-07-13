@@ -58,6 +58,15 @@ table {
   padding: 0;
 }
 
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nav-log .bi-archive {
+  color: #00b289;
+}
+
 body {
   background-color: #ffffff;
 }

@@ -2,3 +2,15 @@ $c-primary: #00b289;
 $c-secundary: #4c4d5f;
 $c-yellow: #f8db62;
 $c-white: #ffffff;
+
+// container
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+// nav
+.nav-log {
+  .bi-archive {
+    color: $c-primary;
+  }
+}
