@@ -13,15 +13,31 @@
 <body>
   <!-- start nav -->
   <nav class="nav">
-    <div class="container">
-      <div class="nav-log">
+    <div class="container container-menu">
+      <div class="nav-logo">
         <i class="bi bi-archive">Bonsai</i>
       </div>
       <ul class="nav-menu">
-        <li><a href="#">Procudct</a></li>
-        <li><a href="#">Templates</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Reviews</a></li>
+        <li class="navmenu-item dropdown"><a class="navmenu-link " href="#">Procudct
+          <i class="bi bi-chevron-compact-down"></i>
+        </a>
+        <ul class="submenu">
+          <li class="submenu-item"><a class="submenu-link" href="#">one</a></li>
+          <li class="submenu-item"><a class="submenu-link" href="#">two</a></li>
+          <li class="submenu-item"><a class="submenu-link" href="#">three</a></li>
+        </ul>
+        </li>
+        <li class="navmenu-item dropdown"><a class="navmenu-link" href="#">Templates
+          <i class="bi bi-chevron-compact-down"></i>
+        </a>
+          <ul class="submenu">
+            <li class="submenu-item"><a class="submenu-link" href="#">one</a></li>
+            <li class="submenu-item"><a class="submenu-link" href="#">two</a></li>
+            <li class="submenu-item"><a class="submenu-link" href="#">three</a></li>
+          </ul>
+        </li>
+        <li class="navmenu-item"><a class="navmenu-link" href="#">Pricing</a></li>
+        <li class="navmenu-item"><a class="navmenu-link"href="#">Reviews</a></li>
       </ul>
       <div class="nav-buttons">
         <button class="btn btn-login">Log in</button>

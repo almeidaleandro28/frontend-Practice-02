@@ -8,7 +8,16 @@ $c-white: #ffffff;
   margin: 0 auto;
   width: 90%;
 }
+a {
+  text-decoration: none;
+  color: $c-secundary;
+}
 // nav
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav{
 
 }
@@ -20,9 +29,34 @@ $c-white: #ffffff;
 }
 
 .nav-menu {
+  display: flex;
+  position: relative;
+}
 
+.navmenu-item {
+  padding-right: 15px;
+}
+.navmenu-link {}
+// drop menu
+.dropdown {}
+.dropdown:hover .submenu {
+  display: block;
+}
+// menu row
+.bi-chevron-compact-down {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+.submenu-item {}
+.submenu-link {
+  
 }
 
 .nav-buttons {
-  
+
 }
