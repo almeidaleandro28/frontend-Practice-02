@@ -117,6 +117,7 @@ a {
 
 .btn-start {
   background-color: #00b289;
+  border: 1px solid #00b289;
   color: #ffffff;
   padding: 5px 10px;
 }
