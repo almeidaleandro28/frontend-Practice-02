@@ -1,5 +1,6 @@
 $c-primary: #00b289;
 $c-secundary: #4c4d5f;
+$c-greenlight: #F1FCFF;
 $c-yellow: #f8db62;
 $c-white: #ffffff;
 
@@ -8,9 +9,14 @@ $c-white: #ffffff;
   margin: 0 auto;
   width: 90%;
 }
+
 a {
   text-decoration: none;
   color: $c-secundary;
+}
+
+.btn {
+  text-transform: uppercase;
 }
 // nav
 .container-menu {
@@ -19,7 +25,7 @@ a {
 }
 
 .nav{
-
+  padding: 10px 0px;
 }
 
 .nav-logo {
@@ -56,7 +62,21 @@ a {
 .submenu-link {
   
 }
-
+// buttons nav
 .nav-buttons {
+
+}
+
+.btn-login {
+  border: 1px solid $c-primary;
+  background-color: $c-greenlight;
+  color: $c-primary;
+  padding: 5px 10px;
+}
+
+.btn-start {
+  background-color: $c-primary;
+  color: $c-white;
+  padding: 5px 10px;
 
 }

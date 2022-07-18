@@ -68,9 +68,17 @@ a {
   color: #4c4d5f;
 }
 
+.btn {
+  text-transform: uppercase;
+}
+
 .container-menu {
   display: flex;
   justify-content: space-between;
+}
+
+.nav {
+  padding: 10px 0px;
 }
 
 .nav-logo .bi-archive {
@@ -98,6 +106,19 @@ a {
 .submenu {
   display: none;
   position: absolute;
+}
+
+.btn-login {
+  border: 1px solid #00b289;
+  background-color: #F1FCFF;
+  color: #00b289;
+  padding: 5px 10px;
+}
+
+.btn-start {
+  background-color: #00b289;
+  color: #ffffff;
+  padding: 5px 10px;
 }
 
 body {
