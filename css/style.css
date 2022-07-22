@@ -63,6 +63,10 @@ table {
   width: 90%;
 }
 
+body {
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
   color: #4c4d5f;
@@ -79,6 +83,8 @@ a {
 
 .nav {
   padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-logo .bi-archive {
@@ -182,6 +188,12 @@ a {
 
 .slider-round::before {
   border-radius: 50%;
+}
+
+.plans-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 body {

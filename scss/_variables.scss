@@ -10,6 +10,11 @@ $c-white: #ffffff;
   width: 90%;
 }
 
+// all
+body {
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
   color: $c-secundary;
@@ -26,6 +31,8 @@ a {
 
 .nav{
   padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -150,8 +157,15 @@ plans-header-duraton {
   border-radius: 50%;
 }
 
-
-.card {}
+//plans prices
+.plans-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  
+}
 .card-header {}
 .card-content {}
 .card-footer {}
