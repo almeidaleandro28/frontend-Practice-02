@@ -79,5 +79,79 @@ a {
   border: 1px solid $c-primary;
   color: $c-white;
   padding: 5px 10px;
+}
+
+// section plans
+.section-plans {}
+.plans-header {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+plans-header-title {
+  h1 {
+
+  }
+}
+plans-header-duraton {
+}
+// toggle switch
+.switch {
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  position: relative;
 
 }
+.switch-check {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.switch-check:checked + .switch-check {
+  background-color: $c-primary;
+}
+
+.switch-check:focus + .switch-slider {
+  box-shadow: 0 0 1px $c-primary;
+}
+
+.switch-check:checked + .switch-slider::before {
+  transform: translateX(15px);
+}
+.switch-slider {
+  cursor: pointer;
+  position: absolute;
+  background-color: $c-primary;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+.switch-slider::before {
+  content: "";
+  background-color: $c-white;
+  bottom: 4px;
+  position: absolute;
+  height: 15px;
+  left: 4px;
+  transition: .4s;
+  width: 15px;
+}
+.slider {
+}
+.slider-round {
+  border-radius: 15px;
+}
+.slider-round::before {
+  border-radius: 50%;
+}
+
+
+.card {}
+.card-header {}
+.card-content {}
+.card-footer {}

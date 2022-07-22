@@ -122,6 +122,68 @@ a {
   padding: 5px 10px;
 }
 
+.plans-header {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.switch {
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  position: relative;
+}
+
+.switch-check {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.switch-check:checked + .switch-check {
+  background-color: #00b289;
+}
+
+.switch-check:focus + .switch-slider {
+  box-shadow: 0 0 1px #00b289;
+}
+
+.switch-check:checked + .switch-slider::before {
+  transform: translateX(15px);
+}
+
+.switch-slider {
+  cursor: pointer;
+  position: absolute;
+  background-color: #00b289;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.switch-slider::before {
+  content: "";
+  background-color: #ffffff;
+  bottom: 4px;
+  position: absolute;
+  height: 15px;
+  left: 4px;
+  transition: 0.4s;
+  width: 15px;
+}
+
+.slider-round {
+  border-radius: 15px;
+}
+
+.slider-round::before {
+  border-radius: 50%;
+}
+
 body {
   background-color: #ffffff;
 }
