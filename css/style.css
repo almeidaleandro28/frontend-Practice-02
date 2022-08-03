@@ -200,6 +200,15 @@ a {
   justify-content: space-between;
 }
 
+.card {
+  border: 1px solid #4c4d5f;
+  padding: 10px 10px;
+}
+
+.card-header {
+  border-bottom: 3px solid #00b289;
+}
+
 .card-header h2 {
   padding-bottom: 10px;
 }

@@ -167,10 +167,12 @@ plans-header-duraton {
   justify-content: space-between;
 }
 .card {
-  
+  border: 1px solid $c-secundary;
+  padding: 10px 10px;
+
 }
 .card-header {
- 
+ border-bottom: 3px solid $c-primary;
 }
 
 .card-header h2 {
