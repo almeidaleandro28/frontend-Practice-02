@@ -64,7 +64,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 60%;
 }
 
 body {
@@ -132,11 +132,18 @@ a {
   padding: 5px 10px;
 }
 
+.container-plans {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 .plans-header {
   display: flex;
   height: 40px;
   justify-content: space-between;
   padding: 5px 0px;
+  justify-self: center;
 }
 
 .switch {
@@ -202,7 +209,7 @@ a {
 
 .card {
   border: 1px solid #4c4d5f;
-  padding: 10px 10px;
+  padding: 20px 20px;
 }
 
 .card-header {
@@ -215,12 +222,47 @@ a {
 
 .card-header .price {
   font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .card-header .sub {
   font-size: smaller;
   vertical-align: top;
   padding-right: 5px;
+}
+
+.card-content {
+  margin-top: 15px;
+}
+.card-content .list-item {
+  padding-bottom: 5px;
+}
+
+.card-footer .btn {
+  background-color: #00b289;
+  border: 1px solid #00b289;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+.section-extras .extras-title {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.extras-container {
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px;
+}
+
+.extras-header {
+  flex: 1;
+}
+
+.extras-price {
+  flex: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

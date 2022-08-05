@@ -10,7 +10,7 @@ body {
 // container
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 60%;
 }
 
 // all
@@ -93,11 +93,19 @@ a {
 
 // section plans
 .section-plans {}
+
+.container-plans {
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+}
+// plans header
 .plans-header {
   display: flex;
   height: 40px;
   justify-content: space-between;
   padding: 5px 0px;
+  justify-self: center;
 }
 plans-header-title {
   h1 {
@@ -168,7 +176,7 @@ plans-header-duraton {
 }
 .card {
   border: 1px solid $c-secundary;
-  padding: 10px 10px;
+  padding: 20px 20px;
 
 }
 .card-header {
@@ -180,11 +188,45 @@ plans-header-duraton {
 }
 .card-header .price {
   font-size: 32px;
+  margin-bottom: 10px;
 }
 .card-header .sub {
   font-size: smaller;
   vertical-align: top;
   padding-right: 5px;
 }
-.card-content {}
+.card-content {
+  margin-top: 15px;
+  .list {}
+  .list-item {
+    padding-bottom: 5px;
+  }
+}
+
 .card-footer {}
+.card-footer .btn {
+  background-color: $c-primary;
+  border: 1px solid $c-primary;
+  color: $c-white;
+  padding: 10px 30px;
+}
+
+// Sections extras
+.section-extras{
+  .extras-title {
+    padding: 15px 15px;
+    text-align: center;
+  }
+}
+.extras-container {
+  border: 1px solid $c-black;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px;
+}
+.extras-header {
+  flex: 1;
+}
+.extras-price {
+  flex: 1;
+}

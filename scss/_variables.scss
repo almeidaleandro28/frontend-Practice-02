@@ -1,6 +1,11 @@
+$c-black: #000000;
 $c-primary: #00b289;
 $c-secundary: #4c4d5f;
 $c-greenlight: #F1FCFF;
 $c-yellow: #f8db62;
 $c-white: #ffffff;
 
+// fonts
+$f-roboto: 'Roboto', sans-serif;
+$f-weight: ("light": 300, "regular": 400, "medium": 500, "bold": 700 );
+$f-sizes: ("normal": 1rem, "small": 1.25rem, "medium": 1.563rem, "big": 1.953rem);
