@@ -1,7 +1,12 @@
+@use "sass:map";
+
 @import "reset";
 @import "variables";
 @import "responsive";
 
+html {
+  font-size: map.get($f-sizes,"normal")
+}
 
 body {
   background-color: $c-white;
@@ -99,19 +104,20 @@ a {
  flex-direction: column;
  width: 50%;
 }
+
 // plans header
 .plans-header {
   display: flex;
   height: 40px;
   justify-content: space-between;
-  padding: 5px 0px;
+  padding: 55px 0px;
   justify-self: center;
 }
-plans-header-title {
-  h1 {
 
-  }
+.plans-header-title {
+    font-size: map-get($f-sizes, "big");
 }
+
 plans-header-duraton {
 }
 // toggle switch
@@ -218,15 +224,36 @@ plans-header-duraton {
     text-align: center;
   }
 }
+// extras container
 .extras-container {
   border: 1px solid $c-black;
   display: flex;
   flex-direction: row;
-  padding: 10px 5px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
 }
+
 .extras-header {
   flex: 1;
 }
+
+.extras-header h3 {
+  font-weight: map.get($f-weight, "bold" );
+}
+
+.extras-header p {
+  font-weight: map.get($f-weight, "light" );
+}
+
 .extras-price {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  vertical-align: middle;
+  .price {
+    font-size: map.get($f-sizes, "medium");
+    font-weight: map.get($f-weight , "bold" );
+  }
 }
+
