@@ -68,6 +68,7 @@ body {
 
 .container {
   margin: 0 auto;
+  position: relative;
   width: 60%;
 }
 
@@ -288,6 +289,34 @@ a {
 .extras-price .price {
   font-size: 1.563rem;
   font-weight: 700;
+}
+
+.container-start {
+  background-color: #F1FCFF;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 5px;
+}
+
+.start-header {
+  flex: 1;
+}
+.start-header > h2 {
+  font-size: 1.563rem;
+}
+
+.start-btns {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.start-btn {
+  background-color: #00b289;
+  border: none;
+  color: #ffffff;
+  padding: 5px 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

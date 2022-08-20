@@ -15,6 +15,7 @@ body {
 // container
 .container {
   margin: 0 auto;
+  position: relative;
   width: 60%;
 }
 
@@ -256,4 +257,28 @@ plans-header-duraton {
     font-weight: map.get($f-weight , "bold" );
   }
 }
-
+// setion start
+.container-start {
+  background-color: $c-greenlight;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 5px;
+}
+.start-header{
+  flex: 1;
+  > h2 {
+    font-size: map.get($f-sizes, "medium" );
+  }
+}
+.start-btns {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+.start-btn{
+  background-color: $c-primary;
+  border: none;
+  color: $c-white;
+  padding: 5px 15px;
+}
