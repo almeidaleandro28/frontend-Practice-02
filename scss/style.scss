@@ -282,3 +282,12 @@ plans-header-duraton {
   color: $c-white;
   padding: 5px 15px;
 }
+// sections questions
+.container-questions {
+  text-align: center;
+}
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
