@@ -36,14 +36,20 @@ li {
   list-style: none;
 }
 
-
-
 .btn {
   text-transform: uppercase;
 }
 
 h3 {
   font-size: map-get($f-sizes, "small" );
+  padding-bottom: 1rem;
+}
+// =============
+.pt {
+  padding-top: 1rem;
+}
+.pb {
+  padding-top: 1rem;
 }
 // nav
 .container-menu {
@@ -318,10 +324,14 @@ plans-header-duraton {
 }
 }
 .products { 
-  
+  .products-title {
+    padding-top: 1rem;
+  }
 }
-.freee {
-  
+.free {
+  .free-title {
+    padding-top: 1rem;
+  }
 }
 .social {
   

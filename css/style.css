@@ -94,6 +94,15 @@ li {
 
 h3 {
   font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.pt {
+  padding-top: 1rem;
+}
+
+.pb {
+  padding-top: 1rem;
 }
 
 .container-menu {
@@ -348,6 +357,14 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.products .products-title {
+  padding-top: 1rem;
+}
+
+.free .free-title {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
