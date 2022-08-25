@@ -64,6 +64,8 @@ html {
 
 body {
   background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .container {
@@ -77,12 +79,21 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #4c4d5f;
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 .btn {
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 .container-menu {
@@ -319,11 +330,21 @@ a {
   padding: 5px 15px;
 }
 
+.section-questions {
+  padding-bottom: 5rem;
+}
+
 .container-questions {
   text-align: center;
 }
 
 .questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .container-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

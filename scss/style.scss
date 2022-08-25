@@ -10,6 +10,8 @@ html {
 
 body {
   background-color: $c-white;
+  font-size: 1rem;
+  font-weight: map.get($f-weight, "regular");
 }
 
 // container
@@ -25,12 +27,23 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: $c-secundary;
+  list-style: none;
+  text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
+
+
 
 .btn {
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: map-get($f-sizes, "small" );
 }
 // nav
 .container-menu {
@@ -283,6 +296,9 @@ plans-header-duraton {
   padding: 5px 15px;
 }
 // sections questions
+.section-questions {
+  padding-bottom: 5rem;
+}
 .container-questions {
   text-align: center;
 }
@@ -290,4 +306,23 @@ plans-header-duraton {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+// footer
+.footer {
+ 
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
+.products { 
+  
+}
+.freee {
+  
+}
+.social {
+  
 }
