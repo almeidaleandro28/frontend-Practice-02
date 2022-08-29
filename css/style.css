@@ -111,7 +111,7 @@ h3 {
 }
 
 .nav {
-  padding: 10px 0px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -122,6 +122,7 @@ h3 {
 
 .nav-menu {
   display: flex;
+  align-items: center;
   position: relative;
 }
 
@@ -362,9 +363,15 @@ h3 {
 .products .products-title {
   padding-top: 1rem;
 }
+.products ul li {
+  color: #4c4d5f;
+}
 
 .free .free-title {
   padding-top: 1rem;
+}
+.free ul li {
+  color: #4c4d5f;
 }
 
 /*# sourceMappingURL=style.css.map */

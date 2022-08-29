@@ -58,7 +58,7 @@ h3 {
 }
 
 .nav{
-  padding: 10px 0px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -71,6 +71,7 @@ h3 {
 
 .nav-menu {
   display: flex;
+  align-items: center;
   position: relative;
 }
 
@@ -327,10 +328,16 @@ plans-header-duraton {
   .products-title {
     padding-top: 1rem;
   }
+  ul li {
+    color: $c-secundary;
+  }
 }
 .free {
   .free-title {
     padding-top: 1rem;
+  }
+  ul li {
+    color: $c-secundary;
   }
 }
 .social {
