@@ -3,7 +3,7 @@
 
 <h3>technology used</h3>
 <ul>
-  <li>html<li>
-  <li>css<li>
-  <li>scss<li>
+  <li>html</li>
+  <li>css</li>
+  <li>scss</li>
 </ul>
